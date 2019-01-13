@@ -93,7 +93,7 @@ paascloud:
         clientId: paascloud-client-uac
         clientSecret: paascloudClientSecret
         accessTokenValidateSeconds: 7200
-        scope: "/net"
+        scope: "openid"
       clients[1]:
         clientId: paascloud-browser
         clientSecret: paascloudClientSecret
