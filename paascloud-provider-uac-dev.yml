@@ -7,6 +7,10 @@ spring:
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/paascloud_uac?characterEncoding=utf8&useSSL=false
 
+management:
+  security:
+    enabled: false
+
 mybatis:
   type-aliases-package: com.paascloud.provider.model.domain
   mapper-locations: classpath:mapper/*.xml,classpath*:sdk/mapper/*.xml
